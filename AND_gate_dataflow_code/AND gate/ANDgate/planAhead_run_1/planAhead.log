@@ -1,0 +1,63 @@
+#-----------------------------------------------------------
+# PlanAhead v14.3 (64-bit)
+# Build 209282 by xbuild on Thu Oct 18 20:50:53 MDT 2012
+# Start of session at: Thu Oct 17 23:30:49 2024
+# Process ID: 10724
+# Log file: H:/ISE PHOTOS AND CODE/AND gate/ANDgate/planAhead_run_1/planAhead.log
+# Journal file: H:/ISE PHOTOS AND CODE/AND gate/ANDgate/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+INFO: [Common 17-78] Attempting to get a license: PlanAhead
+INFO: [Common 17-290] Got license for PlanAhead
+INFO: [Common 17-86] Your PlanAhead license expires in -1416 day(s)
+INFO: [Device 21-36] Loading parts and site information from C:/Xilinx/14.3/ISE_DS/PlanAhead/data/parts/arch.xml
+Parsing RTL primitives file [C:/Xilinx/14.3/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+Finished parsing RTL primitives file [C:/Xilinx/14.3/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+start_gui
+source {H:/ISE PHOTOS AND CODE/AND gate/ANDgate/pa.fromNetlist.tcl}
+# create_project -name ANDgate -dir "H:/ISE PHOTOS AND CODE/AND gate/ANDgate/planAhead_run_2" -part xc3s500efg320-5
+create_project: Time (s): elapsed = 00:00:06 . Memory (MB): peak = 381.184 ; gain = 66.973
+# set_property design_mode GateLvl [get_property srcset [current_run -impl]]
+# set_property edif_top_file "H:/ISE PHOTOS AND CODE/AND gate/ANDgate/ANDgate.ngc" [ get_property srcset [ current_run ] ]
+# add_files -norecurse { {H:/ISE PHOTOS AND CODE/AND gate/ANDgate} }
+# set_param project.pinAheadLayout  yes
+# set_property target_constrs_file "ANDgate.ucf" [current_fileset -constrset]
+Adding file 'H:/ISE PHOTOS AND CODE/AND gate/ANDgate/ANDgate.ucf' to fileset 'constrs_1'
+# add_files [list {ANDgate.ucf}] -fileset [get_property constrset [current_run]]
+# link_design
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+Design is defaulting to project part: xc3s500efg320-5
+Release 14.3 - ngc2edif P.40xd (nt64)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+Reading design ANDgate.ngc ...
+WARNING:NetListWriters:298 - No output is written to ANDgate.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file ANDgate.edif ...
+ngc2edif: Total memory usage is 4310760 kilobytes
+
+Parsing EDIF File [./planAhead_run_2/ANDgate.data/cache/ANDgate_ngc_46738f7c.edif]
+Finished Parsing EDIF File [./planAhead_run_2/ANDgate.data/cache/ANDgate_ngc_46738f7c.edif]
+INFO: [Designutils 20-910] Reading macro library C:/Xilinx/14.3/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3e/spartan3e/hd_int_macros.edn
+Parsing EDIF File [C:/Xilinx/14.3/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3e/spartan3e/hd_int_macros.edn]
+Finished Parsing EDIF File [C:/Xilinx/14.3/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3e/spartan3e/hd_int_macros.edn]
+Loading clock regions from C:/Xilinx/14.3/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/xc3s500e/ClockRegion.xml
+Loading clock buffers from C:/Xilinx/14.3/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/xc3s500e/ClockBuffers.xml
+Loading package from C:/Xilinx/14.3/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/xc3s500e/fg320/Package.xml
+Loading io standards from C:/Xilinx/14.3/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3e/IOStandards.xml
+INFO: [Device 21-19] Loading pkg sso from C:/Xilinx/14.3/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/xc3s500e/fg320/SSORules.xml
+Loading list of drcs for the architecture : C:/Xilinx/14.3/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3e/spartan3e/drc.xml
+INFO: [Timing 38-77] Reading timing library C:/Xilinx/14.3/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/spartan3e-5.lib.
+INFO: [Timing 38-34] Done reading timing library C:/Xilinx/14.3/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/spartan3e-5.lib.
+Parsing UCF File [H:/ISE PHOTOS AND CODE/AND gate/ANDgate/ANDgate.ucf]
+Finished Parsing UCF File [H:/ISE PHOTOS AND CODE/AND gate/ANDgate/ANDgate.ucf]
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Phase 0 | Netlist Checksum: e732c813
+link_design: Time (s): elapsed = 00:00:21 . Memory (MB): peak = 492.527 ; gain = 111.344
+exit
+INFO: [Common 17-206] Exiting PlanAhead at Thu Oct 17 23:33:29 2024...
+INFO: [Common 17-83] Releasing license: PlanAhead

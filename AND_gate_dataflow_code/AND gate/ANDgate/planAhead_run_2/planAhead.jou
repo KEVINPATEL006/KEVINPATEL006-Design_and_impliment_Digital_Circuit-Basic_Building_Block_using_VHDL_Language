@@ -1,0 +1,10 @@
+#-----------------------------------------------------------
+# PlanAhead v14.3 (64-bit)
+# Build 209282 by xbuild on Thu Oct 18 20:50:53 MDT 2012
+# Start of session at: Thu Oct 17 23:31:06 2024
+# Process ID: 3104
+# Log file: H:/ISE PHOTOS AND CODE/AND gate/ANDgate/planAhead_run_2/planAhead.log
+# Journal file: H:/ISE PHOTOS AND CODE/AND gate/ANDgate/planAhead_run_2/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source {H:/ISE PHOTOS AND CODE/AND gate/ANDgate/pa.fromNetlist.tcl}

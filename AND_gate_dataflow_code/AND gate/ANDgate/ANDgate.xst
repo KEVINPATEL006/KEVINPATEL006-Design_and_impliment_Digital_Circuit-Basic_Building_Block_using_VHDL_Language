@@ -1,0 +1,5 @@
+set -tmpdir "H:/ISE PHOTOS AND CODE/AND gate/ANDgate/xst/projnav.tmp"
+set -xsthdpdir "H:/ISE PHOTOS AND CODE/AND gate/ANDgate/xst"
+elaborate
+-ifn ANDgate.prj
+-ifmt mixed
