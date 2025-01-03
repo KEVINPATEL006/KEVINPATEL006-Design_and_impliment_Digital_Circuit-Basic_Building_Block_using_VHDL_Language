@@ -1,1 +1,0 @@
--intstyle "ise" -incremental -o "H:/ISE PHOTOS AND CODE/T1/AND gate/ANDgate/ANDgate_isim_beh.exe" -prj "H:/ISE PHOTOS AND CODE/T1/AND gate/ANDgate/ANDgate_beh.prj" "work.ANDgate" 

@@ -1,2 +1,0 @@
-xst -intstyle ise -ifn "E:/KEVIN/ANDgate/ANDgate.xst" -ofn "E:/KEVIN/ANDgate/ANDgate.syr" 
-xst -intstyle ise -ifn "H:/ISE PHOTOS AND CODE/AND gate/ANDgate/ANDgate.xst" -ofn "H:/ISE PHOTOS AND CODE/AND gate/ANDgate/ANDgate.syr" 
