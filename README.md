@@ -4,4 +4,4 @@
 This project introduces the fundamental building blocks of digital circuits, implemented and simulated using the VHDL (VHSIC Hardware Description Language).
 It provides a comprehensive guide to understanding digital circuit design concepts and their implementation in VHDL code for various digital design and FPGA project.
 
-/**---Note:Note: To simulate and view the files in this project, you can use ModelSim simulation software, Xilinx, or any other compatible tool of your choice.---**/
+/**---Note:To simulate and view the files in this project, you can use ModelSim simulation software, Xilinx, or any other compatible tool of your choice.---**/
